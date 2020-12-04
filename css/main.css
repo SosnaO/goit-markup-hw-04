@@ -104,6 +104,38 @@ ul {
   color: var(--primary-text-color);
 }
 
+.list-item {
+}
+
+.list-item::before {
+  content: "";
+  display: block;
+
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon-vector::before {
+  background-image: url(../images/item/Vector.png);
+}
+
+.icon-clock::before {
+  background-image: url(../images/item/Clock.png);
+}
+.icon-nout::before {
+  background-image: url(../images/item/Nout.png);
+}
+
+.icon-cosmo::before {
+  background-image: url(../images/item/Cosmo.png);
+}
+
 /*  work*/
 .work {
   padding-bottom: 94px;

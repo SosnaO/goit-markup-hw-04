@@ -4,14 +4,27 @@ ul {
 }
 
 .hero {
-  background: var(--primary-bg-color);
   display: flex;
   justify-content: center;
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+  background-color: var(--primary-bg-color);
 
+  max-width: 1600px;
   height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/fon.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .container-hero {
@@ -158,4 +171,15 @@ ul {
 
 .team-element:nth-child(4n) {
   margin-right: 0;
+}
+
+/*Ovarlay*/
+.ovarlay {
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid black;
+
+  background-image: url(../images/fon.jpg);
 }

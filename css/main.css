@@ -104,9 +104,6 @@ ul {
   color: var(--primary-text-color);
 }
 
-.list-item {
-}
-
 .list-item::before {
   content: "";
   display: block;

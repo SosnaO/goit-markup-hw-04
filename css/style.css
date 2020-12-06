@@ -132,7 +132,25 @@ span {
 .aut-nav .link:focus {
   color: var(--accent-color);
 }
+.aut-envelope {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+}
+.aut-tel {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+}
+.link-icon {
+  fill: var(--primary-text-color);
+  vertical-align: middle;
+}
 
+.link-icon:hover,
+.link-icon:focus {
+  fill: var(--accent-color);
+}
 /*Футер*/
 .footer {
   background-color: var(--primary-bg-color);

@@ -184,7 +184,6 @@ ul {
   font-size: 16px;
   line-height: 1.9;
   text-align: center;
-  padding-bottom: 16px;
 }
 
 .team-element {
@@ -203,8 +202,6 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  height: 44px;
   padding-left: 32px;
   padding-right: 32px;
   padding-bottom: 30px;
@@ -216,12 +213,13 @@ ul {
   margin-right: 10px;
   border-radius: 0px 0px 4px 4px;
   border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .seti-icon {
   display: inline-block;
   margin: 12px;
-  fill: #afb1b8;
+  fill: currentColor;
 }
 .social-link:nth-child(4n) {
   margin-right: 0px;
@@ -231,7 +229,7 @@ ul {
 .social-link:hover,
 .social-link:focus {
   background-color: var(--accent-color);
-  fill: var(--primary-white-color);
+  color: var(--primary-white-color);
 }
 
 /*klient*/
@@ -294,37 +292,4 @@ ul {
 .klient-icon:hover,
 .klient-icon:focus {
   fill: #2196f3;
-}
-
-/*
-.icon-logo1 {
-  background-image: url(../images/klient/logo1.svg);
-}
-.icon-logo2 {
-  background-image: url(../images/klient/logo2.svg);
-}
-
-.icon-logo3 {
-  background-image: url(../images/klient/logo3.svg);
-}
-.icon-logo4 {
-  background-image: url(../images/klient/logo4.svg);
-}
-
-.icon-logo5 {
-  background-image: url(../images/klient/logo5.svg);
-}
-.icon-logo6 {
-  background-image: url(../images/klient/logo6.svg);
-}
-*/
-/*Ovarlay*/
-.ovarlay {
-  max-width: 1600px;
-  height: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  outline: 1px solid black;
-
-  background-image: url(../images/fon.jpg);
 }

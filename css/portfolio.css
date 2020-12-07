@@ -111,6 +111,12 @@ header {
 
   width: 370px;
   height: 404px;
+
+  
+}
+
+.cards:hover {
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 /*border: 1px solid #eeeeee;*/
@@ -127,4 +133,52 @@ header {
   padding-bottom: 20px;
   padding-right: 24px;
   padding-left: 24px;
+}
+
+
+
+.social-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+  border-radius: 0px 0px 4px 4px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.seti-icon {
+  display: inline-block;
+  margin: 12px;
+  fill: currentColor;
+}
+
+
+.seti-icon:hover,
+.seti-icon:focus,
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+.web-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  border-radius: 50%;
+  color: var(--icon-color);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.web-link:hover,
+.web-link:focus {
+  background-color:var(--accent-color);
+  color: var(--primary-white-color));
+}
+
+.websocial-list {
+display: flex;
+padding: 0px;
+margin: 0px;
 }

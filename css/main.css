@@ -118,18 +118,14 @@ ul {
 
 .features-item:focus,
 .features-item:hover {
-  border-color: #2196f3;
-  border-color: #2196f3;
+  border-color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .features-icon {
   display: flex;
   width: 70px;
   height: 70px;
-}
-.features-icon:hover,
-.features-icon:focus {
-  fill: #2196f3;
 }
 
 /*  work*/
@@ -275,21 +271,16 @@ ul {
 
 .klient-element:focus,
 .klient-element:hover {
-  border-color: #2196f3;
+  border-color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .klient-icon {
   display: flex;
-
   height: 50px;
   fill: #afb1b8;
 
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.klient-icon:hover,
-.klient-icon:focus {
-  fill: #2196f3;
 }

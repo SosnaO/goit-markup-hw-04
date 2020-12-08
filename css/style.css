@@ -143,14 +143,10 @@ span {
   margin-right: 10px;
 }
 .link-icon {
-  fill: var(--primary-text-color);
+  fill: currentColor;
   vertical-align: middle;
 }
 
-.link-icon:hover,
-.link-icon:focus {
-  fill: var(--accent-color);
-}
 /*Футер*/
 .footer {
   background-color: var(--primary-bg-color);
@@ -219,7 +215,7 @@ span {
 
 .adress-slogan {
   width: 145px;
-  
+
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -233,19 +229,19 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
   border-radius: 50%;
   color: var(--icon-color);
   background-color: rgba(255, 255, 255, 0.1);
 }
 .web-link:hover,
 .web-link:focus {
-  background-color:var(--accent-color);
-  color: var(--primary-white-color));
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
 }
 
 .websocial-list {
-display: flex;
-padding: 0px;
-margin: 0px;
+  display: flex;
+  padding: 0px;
+  margin: 0px;
 }

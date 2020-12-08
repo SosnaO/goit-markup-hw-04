@@ -201,6 +201,7 @@ ul {
   padding-left: 32px;
   padding-right: 32px;
   padding-bottom: 30px;
+  color: #afb1b8;
 }
 .social-link {
   display: flex;
@@ -251,6 +252,7 @@ ul {
   padding: 0px;
   margin: 0px;
   display: flex;
+  color: #afb1b8;
 }
 
 .klient-element {
@@ -278,7 +280,7 @@ ul {
 .klient-icon {
   display: flex;
   height: 50px;
-  fill: #afb1b8;
+  fill: currentColor;
 
   display: flex;
   align-items: center;
